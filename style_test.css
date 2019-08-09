@@ -11,7 +11,7 @@ header {
 }
 
 body {
-    font-size: 16px;
+    font-size: 20px;
     background-color: #eFeee7;
     margin: 0 auto;
     color: #002147;
@@ -54,7 +54,8 @@ li {
 
 .profilePhoto {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
     width: 150px;
     height: 220px;
 }
@@ -102,6 +103,7 @@ li {
 .footerText {
     color: #efeee7;    
     margin-left: 400px;
+    margin-top: 0px;
 }
 
 .footer {
