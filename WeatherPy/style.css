@@ -97,11 +97,6 @@ li.dropdown {
   border-bottom-width: 0;
 }
 
-
-
-
-
-
 #leftPlot {
   height: 100%;
   width: 100%;
@@ -124,7 +119,7 @@ li.dropdown {
   padding-bottom: 100px;
 }
 
-h3 {
+h2 {
   text-align: center;
 }
 
@@ -134,14 +129,4 @@ h3 {
 
 .floatRight {
   float: right;
-}
-
-#rowBorder {
-  border-style: solid;
-  border-width: .5px;
-  border-color: #2a3439;
-  border-right-style: none;
-  border-left-style: none;
-  border-top-style: none;
-  text-align: center;
 }
