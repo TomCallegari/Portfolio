@@ -123,3 +123,7 @@ h2 {
   text-align: center;
 }
 
+
+.image-sizing {
+  object-fit: scale-down;
+}
