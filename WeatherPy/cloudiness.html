@@ -11,29 +11,85 @@
 
 <body>
 
-<div class="container-fluid">    
+<div class="container-fluid">
 
-    <div class='row'>
-        <div class='col-md-12'>
-            <div class='navbar' style='font-size:22px;'>                          
-                <ul>
-                    <li><a href='https://tomcallegari.github.io/Portfolio/WeatherPy/index.html' style="float:left;" id='homeButtonPadding'>WeatherPy</a></li>
-                    <li><a href='https://tomcallegari.github.io/Portfolio/WeatherPy/comaprison.html' style='float:right;'>COMPARISON</a></li>
-                    <li><a href='https://tomcallegari.github.io/Portfolio/WeatherPy/data.html' style='float:right;'>DATA</a></li>
-                    <li class='dropdown' style='float:right'>
-                        <a href='javascript:void(0)' class='dropbtn'>PLOTS</a>
-                        <div class='dropdown-content'>
-                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/temperature.html'>Max Temperature</a>
-                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/humidity.html'>Humidity</a>
-                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/cloudiness.html'>Cloudiness</a>
-                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/wind_speed.html'>Wind Speed</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>   
-        </div>
-    </div>
+        <div class='row'>
+                <div class='col-md-12'>
+                    <div class='navbar' style='font-size:22px;'>                          
+                        <ul>
+                            <li><a href='https://tomcallegari.github.io/Portfolio/WeatherPy/index.html' style="float:left;" id='homeButtonPadding'>WeatherPy</a></li>
+                            <li><a href='https://tomcallegari.github.io/Portfolio/WeatherPy/comparisons.html' style='float:right;'>COMPARISON</a></li>
+                            <li><a href='https://tomcallegari.github.io/Portfolio/WeatherPy/data.html' style='float:right;'>DATA</a></li>
+                            <li class='dropdown' style='float:right'>
+                                <a href='javascript:void(0)' class='dropbtn'>PLOTS</a>
+                                <div class='dropdown-content'>
+                                    <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/temperature.html'>Max Temperature</a>
+                                    <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/humidity.html'>Humidity</a>
+                                    <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/cloudiness.html'>Cloudiness</a>
+                                    <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/wind_speed.html'>Wind Speed</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
     
+    <div class='row'>
+
+        <div class='col-sm-1 col-md-1 col-lg-1'>
+        </div>
+            
+        <div class='col-sm-10 col-md-10 col-lg-10' id='columnParams'>
+            
+            <div class='row'>
+            
+                <div class="col-md-7">
+                    <div>
+                        <h2>Cloudiness</h2>
+                        <p style='font-size: 18px;' id='p-padding'>
+                            <img id='leftPlot' src='Images/WeatherPy - Cloudiness.png' class='img-responsive center-block' alt='Responsive image'>
+                            <br>
+                            <br/>
+                            Latitude does not seem to impact Cloudiness in any meaningful manner.  From the plot we can see 
+                            that the variation in data as Latitude increases or decreases does not change.  It is apparent 
+                            that there is some sort of measurement bias with collections of data points showing horizontal
+                            linearity at 0, 20, 40, ~80, ~90 and 100 percent levels.
+                        </p>
+                        
+                    </div>            
+                </div>
+                                        
+                <div class="col-md-4">
+                    <div class='row'>
+                        <h2>Visualizations</h2>
+                    </div>
+                    <div class='row' id='row'>
+                        <div class='column'>
+                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/temperature.html'>
+                                <img src='Images/WeatherPy - Temperature.png' alt='Responsive image' style='width:100%'>
+                            </a>
+                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/humidity.html'>
+                                <img src='Images/WeatherPy - Humidity.png' alt='Responsive image' style='width:100%'>
+                            </a>
+                        </div>
+                        <div class='column'>
+                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/cloudiness.html'>
+                                <img src='Images/WeatherPy - Cloudiness.png' alt='Responsive image' style='width:100%'>
+                            </a>
+                            <a href='https://tomcallegari.github.io/Portfolio/WeatherPy/wind_speed.html'>
+                                <img src='Images/WeatherPy - Wind Speed.png' alt='Responsive image' style='width:100%'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+                
+        </div>
+
+    </div>
+        
+  
 </div>
 
 </body>
