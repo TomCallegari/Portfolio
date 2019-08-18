@@ -55,45 +55,36 @@
                         <p style='font-size: 18px;'>
                             <img id='leftPlot' src='Images/WeatherPy - Temperature.png' class='img-responsive center-block' alt='Responsive image'>
                             Intuitively, we can say that as you get closer to the equator, the temperature will rise.
-                            But how can you be absolutely certain? Or atleast as close to certain as possible?  This project,
-                            a static dashboard website, aims to give some level of certainty to this question. 
+                            But how can we be certain? Or atleast come close to some approximation of certainty?  This static
+                            dasboard website aims to visualize an answer to this question using the Python plotting library Matplotlib.  
+                            These simple scatter plot diagrams show varying degrees of relationship between Latitude and city Temperatures, 
+                            Humidity levels, Cloudiness and Wind Speeds.
                             <br>
                             <br/>                        
-                            Through the use of the <a href='http://openweathermap.org'>OpenWeatherMap</a> API 3500+ randomly 
-                            collected cities real-time temperature data was collected, cleaned and visualized to give the 
-                            reader a clearer understanding of the relationship between a cities latitude and and it's weather.
+                            Data for this project was gathered through the <a href='http://openweathermap.org'>OpenWeatherMap</a> API. A script
+                            was run collecting 3500+ randomly selected cities real-time temperature data over the course of 5 hours.  It was then
+                            cleeaned and visualized to give the reader a clearer understanding of the relationship between a selected cities Latitude and 
+                            and it's weather.
                         </p>
                         
                     </div>            
                 </div>
                                         
-                <div class="col-md-5">
-                    <div>
-                        <h2>Visualizations</h2>
-                        <div class='row'>
-                            <div class= 'col-md-2.5'>
-                                <img src='Images/WeatherPy - Temperature.png' class='img-responsive center-block image-sizing' alt='Responsive image'>                                
-                            </div>
-                            <div class='col-md-2.5'>
-                                <img src='Images/WeatherPy - Humidity.png' class='img-responsive center-block image-sizing' alt='Responsive image'>                                
-                            </div>
+                <div class="col-md-6">
+                    <div class='row' id='row'>
+                        <div class='column'>
+                            <img src='Images/WeatherPy - Temperature.png' alt='Responsive image' style='width:100%'>
+                            <img src='Images/WeatherPy - Humidity.png' alt='Responsive image' style='width:100%'>
                         </div>
-                        <div class='row'>
-                                <div class= 'col-md-2.5'>                                    
-                                    <img src='Images/WeatherPy - Cloudiness.png' class='img-responsive center-block image-sizing' alt='Responsive image'>
-                                </div>
-                                <div class='col-md-2.5'>
-                                    <img src='Images/WeatherPy - Wind Speed.png' class='img-responsive center-block image-sizing' alt='Responsive image'>
-                                </div>
-                            </div>
-                    </div>                       
+                        <div class='column'>
+                            <img src='Images/WeatherPy - Cloudiness.png' alt='Responsive image' style='width:100%'>
+                            <img src='Images/WeatherPy - Wind Speed.png' alt='Responsive image' style='width:100%'>
+                        </div>
+                    </div>
                 </div>
             
             </div>
                 
-        </div>
-            
-        <div class='col-sm-1 col-md-1 col-lg-1'>
         </div>
 
     </div>

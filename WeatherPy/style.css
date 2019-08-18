@@ -1,9 +1,10 @@
-
+/* Global formats */
 body {
     background-color: #ffffff;
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
+/* Hyperlink appearance */
 a:link {
   text-decoration: none;
 }
@@ -20,6 +21,7 @@ a:active {
   text-decoration: none;
 }
 
+/* Navbar */
 .navbar {
   border-color: #ffffff;
   border-width: 1.5px;
@@ -80,7 +82,7 @@ li.dropdown {
   display: block;
 }
 
-
+/* Data table */
 .table-fixed thead {
   width: 97%;
 }
@@ -97,7 +99,8 @@ li.dropdown {
   border-bottom-width: 0;
 }
 
-.viz-row {
+/* Plot grids */
+#row {
   display: -ms-flexbox; /* IE!) */
   display: flex;
   -ms-flex-wrap: wrap; /* IE!) */
@@ -105,29 +108,36 @@ li.dropdown {
   padding: 0 4px;
 }
 
-.viz-column {
+.column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  max-width: 25%;
+  max-width: 100%;
   padding: 0 4px;
 }
 
-.viz-column img {
+.column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
 
 ​@media screen and (max-width: 800px) {
-  .viz-column {
+  .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
-
+/* Additional formats */
 #homeButtonPadding {
   padding-right: 30px;
   padding-left: 30px;
@@ -136,7 +146,7 @@ li.dropdown {
 #columnParams {
   background-color: #ffffff;
   padding-top: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 h2 {
