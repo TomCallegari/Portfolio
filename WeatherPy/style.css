@@ -1,6 +1,6 @@
 /* Global formats */
 body {
-    background-color: #ffffff;
+    background-color: #2a3439;
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
@@ -144,7 +144,7 @@ li.dropdown {
 }
 
 #columnParams {
-  background-color: #efeee7;
+  background-color: #DCDCDC;
   padding-top: 15px;
   padding-bottom: 30px;
 }
