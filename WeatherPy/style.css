@@ -83,20 +83,31 @@ li.dropdown {
 }
 
 /* Data table */
-.table-fixed thead {
-  width: 97%;
-}
-.table-fixed tbody {
-  height: 500px;
-  overflow-y: auto;
+#cities {
+  border-color: #ffffff;
+  border-width: 2px;
   width: 100%;
 }
-.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
-  display: block;
+
+#cities td, #cities th {
+  border: 1px solid #002147;
+  padding: 8px;
 }
-.table-fixed tbody td, .table-fixed thead > tr> th {
-  float: left;
-  border-bottom-width: 0;
+
+#cities tr:nth-child(even){
+  background-color: #ffffff;
+}
+
+#cities tr:hover {
+  background-color: #ffffff;
+}
+
+#cities th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #002147;
+  color: #ffffff;
 }
 
 /* Plot grids */
