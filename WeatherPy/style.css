@@ -149,9 +149,15 @@ li.dropdown {
 }
 
 /* Additional formats */
+#logo {
+  width: 70%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
 #homeButtonPadding {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 #columnParams {
